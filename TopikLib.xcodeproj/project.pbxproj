@@ -20,6 +20,7 @@
 		4AEAB6EE2A0B84B200B7C135 /* TopikLibExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEAB6ED2A0B84B200B7C135 /* TopikLibExampleTests.swift */; };
 		4AEAB6F82A0B84B200B7C135 /* TopikLibExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEAB6F72A0B84B200B7C135 /* TopikLibExampleUITests.swift */; };
 		4AEAB6FA2A0B84B200B7C135 /* TopikLibExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEAB6F92A0B84B200B7C135 /* TopikLibExampleUITestsLaunchTests.swift */; };
+		4AEAB7062A0B8E4F00B7C135 /* TopikCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEAB7052A0B8E4F00B7C135 /* TopikCore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		4AEAB6F32A0B84B200B7C135 /* TopikLibExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopikLibExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AEAB6F72A0B84B200B7C135 /* TopikLibExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopikLibExampleUITests.swift; sourceTree = "<group>"; };
 		4AEAB6F92A0B84B200B7C135 /* TopikLibExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopikLibExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4AEAB7052A0B8E4F00B7C135 /* TopikCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopikCore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 		4AEAB6B82A0B825700B7C135 /* TopikLib */ = {
 			isa = PBXGroup;
 			children = (
+				4AEAB7042A0B8E3100B7C135 /* Modules */,
 				4AEAB6B92A0B825700B7C135 /* TopikLib.h */,
 				4AEAB6BA2A0B825700B7C135 /* TopikLib.docc */,
 			);
@@ -177,6 +180,14 @@
 				4AEAB6F92A0B84B200B7C135 /* TopikLibExampleUITestsLaunchTests.swift */,
 			);
 			path = TopikLibExampleUITests;
+			sourceTree = "<group>";
+		};
+		4AEAB7042A0B8E3100B7C135 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				4AEAB7052A0B8E4F00B7C135 /* TopikCore.swift */,
+			);
+			path = Modules;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -379,6 +390,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AEAB7062A0B8E4F00B7C135 /* TopikCore.swift in Sources */,
 				4AEAB6BB2A0B825700B7C135 /* TopikLib.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -588,6 +600,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -616,6 +629,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -637,6 +651,7 @@
 		4AEAB6CE2A0B825700B7C135 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 84M23U3B2G;
@@ -653,6 +668,7 @@
 		4AEAB6CF2A0B825700B7C135 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 84M23U3B2G;
