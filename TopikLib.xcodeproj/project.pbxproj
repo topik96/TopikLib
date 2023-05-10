@@ -11,6 +11,15 @@
 		4AEAB6C12A0B825700B7C135 /* TopikLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AEAB6B62A0B825700B7C135 /* TopikLib.framework */; };
 		4AEAB6C62A0B825700B7C135 /* TopikLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEAB6C52A0B825700B7C135 /* TopikLibTests.swift */; };
 		4AEAB6C72A0B825700B7C135 /* TopikLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AEAB6B92A0B825700B7C135 /* TopikLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AEAB6D72A0B84AF00B7C135 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEAB6D62A0B84AF00B7C135 /* AppDelegate.swift */; };
+		4AEAB6D92A0B84AF00B7C135 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEAB6D82A0B84AF00B7C135 /* SceneDelegate.swift */; };
+		4AEAB6DB2A0B84AF00B7C135 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEAB6DA2A0B84AF00B7C135 /* ViewController.swift */; };
+		4AEAB6DE2A0B84AF00B7C135 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AEAB6DC2A0B84AF00B7C135 /* Main.storyboard */; };
+		4AEAB6E02A0B84B100B7C135 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AEAB6DF2A0B84B100B7C135 /* Assets.xcassets */; };
+		4AEAB6E32A0B84B100B7C135 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AEAB6E12A0B84B100B7C135 /* LaunchScreen.storyboard */; };
+		4AEAB6EE2A0B84B200B7C135 /* TopikLibExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEAB6ED2A0B84B200B7C135 /* TopikLibExampleTests.swift */; };
+		4AEAB6F82A0B84B200B7C135 /* TopikLibExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEAB6F72A0B84B200B7C135 /* TopikLibExampleUITests.swift */; };
+		4AEAB6FA2A0B84B200B7C135 /* TopikLibExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEAB6F92A0B84B200B7C135 /* TopikLibExampleUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -21,6 +30,20 @@
 			remoteGlobalIDString = 4AEAB6B52A0B825700B7C135;
 			remoteInfo = TopikLib;
 		};
+		4AEAB6EA2A0B84B200B7C135 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AEAB6AD2A0B825700B7C135 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AEAB6D32A0B84AE00B7C135;
+			remoteInfo = TopikLibExample;
+		};
+		4AEAB6F42A0B84B200B7C135 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AEAB6AD2A0B825700B7C135 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AEAB6D32A0B84AE00B7C135;
+			remoteInfo = TopikLibExample;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +52,19 @@
 		4AEAB6BA2A0B825700B7C135 /* TopikLib.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = TopikLib.docc; sourceTree = "<group>"; };
 		4AEAB6C02A0B825700B7C135 /* TopikLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopikLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AEAB6C52A0B825700B7C135 /* TopikLibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopikLibTests.swift; sourceTree = "<group>"; };
+		4AEAB6D42A0B84AF00B7C135 /* TopikLibExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopikLibExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AEAB6D62A0B84AF00B7C135 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4AEAB6D82A0B84AF00B7C135 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4AEAB6DA2A0B84AF00B7C135 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4AEAB6DD2A0B84AF00B7C135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4AEAB6DF2A0B84B100B7C135 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4AEAB6E22A0B84B100B7C135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4AEAB6E42A0B84B100B7C135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AEAB6E92A0B84B200B7C135 /* TopikLibExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopikLibExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AEAB6ED2A0B84B200B7C135 /* TopikLibExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopikLibExampleTests.swift; sourceTree = "<group>"; };
+		4AEAB6F32A0B84B200B7C135 /* TopikLibExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopikLibExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AEAB6F72A0B84B200B7C135 /* TopikLibExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopikLibExampleUITests.swift; sourceTree = "<group>"; };
+		4AEAB6F92A0B84B200B7C135 /* TopikLibExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopikLibExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +83,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4AEAB6D12A0B84AE00B7C135 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AEAB6E62A0B84B200B7C135 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AEAB6F02A0B84B200B7C135 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +112,9 @@
 			children = (
 				4AEAB6B82A0B825700B7C135 /* TopikLib */,
 				4AEAB6C42A0B825700B7C135 /* TopikLibTests */,
+				4AEAB6D52A0B84AF00B7C135 /* TopikLibExample */,
+				4AEAB6EC2A0B84B200B7C135 /* TopikLibExampleTests */,
+				4AEAB6F62A0B84B200B7C135 /* TopikLibExampleUITests */,
 				4AEAB6B72A0B825700B7C135 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +124,9 @@
 			children = (
 				4AEAB6B62A0B825700B7C135 /* TopikLib.framework */,
 				4AEAB6C02A0B825700B7C135 /* TopikLibTests.xctest */,
+				4AEAB6D42A0B84AF00B7C135 /* TopikLibExample.app */,
+				4AEAB6E92A0B84B200B7C135 /* TopikLibExampleTests.xctest */,
+				4AEAB6F32A0B84B200B7C135 /* TopikLibExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,6 +146,37 @@
 				4AEAB6C52A0B825700B7C135 /* TopikLibTests.swift */,
 			);
 			path = TopikLibTests;
+			sourceTree = "<group>";
+		};
+		4AEAB6D52A0B84AF00B7C135 /* TopikLibExample */ = {
+			isa = PBXGroup;
+			children = (
+				4AEAB6D62A0B84AF00B7C135 /* AppDelegate.swift */,
+				4AEAB6D82A0B84AF00B7C135 /* SceneDelegate.swift */,
+				4AEAB6DA2A0B84AF00B7C135 /* ViewController.swift */,
+				4AEAB6DC2A0B84AF00B7C135 /* Main.storyboard */,
+				4AEAB6DF2A0B84B100B7C135 /* Assets.xcassets */,
+				4AEAB6E12A0B84B100B7C135 /* LaunchScreen.storyboard */,
+				4AEAB6E42A0B84B100B7C135 /* Info.plist */,
+			);
+			path = TopikLibExample;
+			sourceTree = "<group>";
+		};
+		4AEAB6EC2A0B84B200B7C135 /* TopikLibExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				4AEAB6ED2A0B84B200B7C135 /* TopikLibExampleTests.swift */,
+			);
+			path = TopikLibExampleTests;
+			sourceTree = "<group>";
+		};
+		4AEAB6F62A0B84B200B7C135 /* TopikLibExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4AEAB6F72A0B84B200B7C135 /* TopikLibExampleUITests.swift */,
+				4AEAB6F92A0B84B200B7C135 /* TopikLibExampleUITestsLaunchTests.swift */,
+			);
+			path = TopikLibExampleUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +229,59 @@
 			productReference = 4AEAB6C02A0B825700B7C135 /* TopikLibTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		4AEAB6D32A0B84AE00B7C135 /* TopikLibExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AEAB6FB2A0B84B200B7C135 /* Build configuration list for PBXNativeTarget "TopikLibExample" */;
+			buildPhases = (
+				4AEAB6D02A0B84AE00B7C135 /* Sources */,
+				4AEAB6D12A0B84AE00B7C135 /* Frameworks */,
+				4AEAB6D22A0B84AE00B7C135 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TopikLibExample;
+			productName = TopikLibExample;
+			productReference = 4AEAB6D42A0B84AF00B7C135 /* TopikLibExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4AEAB6E82A0B84B200B7C135 /* TopikLibExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AEAB6FE2A0B84B200B7C135 /* Build configuration list for PBXNativeTarget "TopikLibExampleTests" */;
+			buildPhases = (
+				4AEAB6E52A0B84B200B7C135 /* Sources */,
+				4AEAB6E62A0B84B200B7C135 /* Frameworks */,
+				4AEAB6E72A0B84B200B7C135 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AEAB6EB2A0B84B200B7C135 /* PBXTargetDependency */,
+			);
+			name = TopikLibExampleTests;
+			productName = TopikLibExampleTests;
+			productReference = 4AEAB6E92A0B84B200B7C135 /* TopikLibExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4AEAB6F22A0B84B200B7C135 /* TopikLibExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AEAB7012A0B84B200B7C135 /* Build configuration list for PBXNativeTarget "TopikLibExampleUITests" */;
+			buildPhases = (
+				4AEAB6EF2A0B84B200B7C135 /* Sources */,
+				4AEAB6F02A0B84B200B7C135 /* Frameworks */,
+				4AEAB6F12A0B84B200B7C135 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AEAB6F52A0B84B200B7C135 /* PBXTargetDependency */,
+			);
+			name = TopikLibExampleUITests;
+			productName = TopikLibExampleUITests;
+			productReference = 4AEAB6F32A0B84B200B7C135 /* TopikLibExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -150,6 +297,17 @@
 					};
 					4AEAB6BF2A0B825700B7C135 = {
 						CreatedOnToolsVersion = 14.0;
+					};
+					4AEAB6D32A0B84AE00B7C135 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					4AEAB6E82A0B84B200B7C135 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 4AEAB6D32A0B84AE00B7C135;
+					};
+					4AEAB6F22A0B84B200B7C135 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 4AEAB6D32A0B84AE00B7C135;
 					};
 				};
 			};
@@ -168,6 +326,9 @@
 			targets = (
 				4AEAB6B52A0B825700B7C135 /* TopikLib */,
 				4AEAB6BF2A0B825700B7C135 /* TopikLibTests */,
+				4AEAB6D32A0B84AE00B7C135 /* TopikLibExample */,
+				4AEAB6E82A0B84B200B7C135 /* TopikLibExampleTests */,
+				4AEAB6F22A0B84B200B7C135 /* TopikLibExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -181,6 +342,30 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		4AEAB6BE2A0B825700B7C135 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AEAB6D22A0B84AE00B7C135 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AEAB6E32A0B84B100B7C135 /* LaunchScreen.storyboard in Resources */,
+				4AEAB6E02A0B84B100B7C135 /* Assets.xcassets in Resources */,
+				4AEAB6DE2A0B84AF00B7C135 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AEAB6E72A0B84B200B7C135 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AEAB6F12A0B84B200B7C135 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -206,6 +391,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4AEAB6D02A0B84AE00B7C135 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AEAB6DB2A0B84AF00B7C135 /* ViewController.swift in Sources */,
+				4AEAB6D72A0B84AF00B7C135 /* AppDelegate.swift in Sources */,
+				4AEAB6D92A0B84AF00B7C135 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AEAB6E52A0B84B200B7C135 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AEAB6EE2A0B84B200B7C135 /* TopikLibExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AEAB6EF2A0B84B200B7C135 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AEAB6F82A0B84B200B7C135 /* TopikLibExampleUITests.swift in Sources */,
+				4AEAB6FA2A0B84B200B7C135 /* TopikLibExampleUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -214,7 +426,36 @@
 			target = 4AEAB6B52A0B825700B7C135 /* TopikLib */;
 			targetProxy = 4AEAB6C22A0B825700B7C135 /* PBXContainerItemProxy */;
 		};
+		4AEAB6EB2A0B84B200B7C135 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AEAB6D32A0B84AE00B7C135 /* TopikLibExample */;
+			targetProxy = 4AEAB6EA2A0B84B200B7C135 /* PBXContainerItemProxy */;
+		};
+		4AEAB6F52A0B84B200B7C135 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AEAB6D32A0B84AE00B7C135 /* TopikLibExample */;
+			targetProxy = 4AEAB6F42A0B84B200B7C135 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4AEAB6DC2A0B84AF00B7C135 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AEAB6DD2A0B84AF00B7C135 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4AEAB6E12A0B84B100B7C135 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AEAB6E22A0B84B100B7C135 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4AEAB6C82A0B825700B7C135 /* Debug */ = {
@@ -425,6 +666,138 @@
 			};
 			name = Release;
 		};
+		4AEAB6FC2A0B84B200B7C135 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84M23U3B2G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TopikLibExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = topikfoundation.TopikLibExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4AEAB6FD2A0B84B200B7C135 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84M23U3B2G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TopikLibExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = topikfoundation.TopikLibExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4AEAB6FF2A0B84B200B7C135 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84M23U3B2G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = topikfoundation.TopikLibExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TopikLibExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TopikLibExample";
+			};
+			name = Debug;
+		};
+		4AEAB7002A0B84B200B7C135 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84M23U3B2G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = topikfoundation.TopikLibExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TopikLibExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TopikLibExample";
+			};
+			name = Release;
+		};
+		4AEAB7022A0B84B200B7C135 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84M23U3B2G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = topikfoundation.TopikLibExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TopikLibExample;
+			};
+			name = Debug;
+		};
+		4AEAB7032A0B84B200B7C135 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84M23U3B2G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = topikfoundation.TopikLibExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TopikLibExample;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -451,6 +824,33 @@
 			buildConfigurations = (
 				4AEAB6CE2A0B825700B7C135 /* Debug */,
 				4AEAB6CF2A0B825700B7C135 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AEAB6FB2A0B84B200B7C135 /* Build configuration list for PBXNativeTarget "TopikLibExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AEAB6FC2A0B84B200B7C135 /* Debug */,
+				4AEAB6FD2A0B84B200B7C135 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AEAB6FE2A0B84B200B7C135 /* Build configuration list for PBXNativeTarget "TopikLibExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AEAB6FF2A0B84B200B7C135 /* Debug */,
+				4AEAB7002A0B84B200B7C135 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AEAB7012A0B84B200B7C135 /* Build configuration list for PBXNativeTarget "TopikLibExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AEAB7022A0B84B200B7C135 /* Debug */,
+				4AEAB7032A0B84B200B7C135 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
