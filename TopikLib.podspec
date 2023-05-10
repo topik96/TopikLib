@@ -53,7 +53,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "Topik Mujianto" => "topik.mujianto@finaccel.co" }
+  spec.author             = { "Topik Mujianto" => "topikmujianto7@gmail.com" }
   
   spec.platform     = :ios
   spec.platform     = :ios, "12.0"
