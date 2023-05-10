@@ -136,7 +136,7 @@
 		4AEAB6B82A0B825700B7C135 /* TopikLib */ = {
 			isa = PBXGroup;
 			children = (
-				4AEAB7042A0B8E3100B7C135 /* Modules */,
+				4AEAB7042A0B8E3100B7C135 /* Classes */,
 				4AEAB6B92A0B825700B7C135 /* TopikLib.h */,
 				4AEAB6BA2A0B825700B7C135 /* TopikLib.docc */,
 			);
@@ -182,12 +182,12 @@
 			path = TopikLibExampleUITests;
 			sourceTree = "<group>";
 		};
-		4AEAB7042A0B8E3100B7C135 /* Modules */ = {
+		4AEAB7042A0B8E3100B7C135 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				4AEAB7052A0B8E4F00B7C135 /* TopikCore.swift */,
 			);
-			path = Modules;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
